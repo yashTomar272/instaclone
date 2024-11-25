@@ -1,0 +1,57 @@
+.postIcon{
+    background-color: #474747
+   
+     }
+     .postIcon:hover{
+       background-color: #777575
+      
+        }
+   
+        a.carousel-control-prev, a.carousel-control-next{
+           display:none
+        }
+        div.carousel-indicators{
+           display:none
+        }
+        .carousel{
+           border-radius: 10px;
+        }
+        /* create post third carousel design set*/
+        .instagram-post-container {
+           height:300px;
+           /* overflow-y: scroll; */
+           /* padding: 16px; */
+           /* width: 100px; */
+           /* border: 1px solid #ddd; */
+           border-radius: 10px;
+           background-color: #fff;
+         }
+         
+         .profile-info {
+           display: flex;
+           align-items: center;
+           margin-bottom: 10px;
+         }
+         
+         .profile-picture {
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           margin-right: 10px;
+         }
+         
+         .post-textarea {
+           width: 100%;
+           /* padding: 10px; */
+           border-radius: 5px;
+           margin-bottom: 10px;
+           outline:none;
+           border:none
+         }
+         
+         .post-options {
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+         }
+    
