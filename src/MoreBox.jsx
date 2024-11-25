@@ -6,7 +6,7 @@ export default function MoreBox(){
     const navigate=useNavigate();
     const handleLogOut= async()=>{
         await firebase.logout();
-        navigate('/');
+        navigate('/instaclone');
 
       }
       const handleSeeting=()=>{

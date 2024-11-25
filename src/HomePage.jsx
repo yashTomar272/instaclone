@@ -11,7 +11,7 @@ export default function HomePage(){
   const firebase=useFirebase();
   const navigate=useNavigate();
   useEffect(()=>{
-   if(firebase.user=== null){ navigate('/')}
+   if(firebase.user=== null){ navigate('/instaclone')}
 
 },[firebase])
 

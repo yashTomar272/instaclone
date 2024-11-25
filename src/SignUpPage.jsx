@@ -235,7 +235,7 @@ useEffect(()=>{
               <span>Have an account? </span>
               <button className="fw-bold ms-1" 
                 style={{border:"none",color: "#0095f6",background:"none"}}
-                onClick={() => navigate("/")}>
+                onClick={() => navigate("/instaclone")}>
 
                 Log in
               </button>

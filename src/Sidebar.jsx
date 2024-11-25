@@ -114,7 +114,7 @@ const isShowIcon = useMediaQuery({ query: '(max-width: 1199px)' });
     setFollowing(false);
     setFollower(false);
     setAllShow("")
-    navigate('/');
+    navigate('/instaclone');
     setNavv("")
   }
   const handleSearch=()=>{
