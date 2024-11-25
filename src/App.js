@@ -47,7 +47,7 @@ export default function App(){
           <Route path="/HomePage" element={<HomePage />} />
           <Route path="/NotificationSecond" element={<NotificationSecond />} />
           <Route path="/ZZZ" element={<ZZZ />} />
-          <Route path="/EditProfile3" element={<EditProfile3 />} />
+          <Route path="/EditP giyrofile3" element={<EditProfile3 />} />
           <Route path="/BirthPage" element={<BirthPage />} />
           <Route path="/SearchEx" element={<SearchEx />} />
           <Route path="/OtpPage" element={<OtpPage />} />
