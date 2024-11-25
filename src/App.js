@@ -42,12 +42,13 @@ export default function App(){
     <FirebaseProvider>
       <Router>
         <Routes>
+        
           <Route path="/instaclone" element={<LoginPage />} />
           <Route path="/SignUpPage" element={<SignUpPage />} />
           <Route path="/HomePage" element={<HomePage />} />
           <Route path="/NotificationSecond" element={<NotificationSecond />} />
           <Route path="/ZZZ" element={<ZZZ />} />
-          <Route path="/EditP giyrofile3" element={<EditProfile3 />} />
+          <Route path="/EditProfile3" element={<EditProfile3 />} />
           <Route path="/BirthPage" element={<BirthPage />} />
           <Route path="/SearchEx" element={<SearchEx />} />
           <Route path="/OtpPage" element={<OtpPage />} />
